@@ -1,17 +1,23 @@
-# Elmozamil Elamir Portfolio
+# Premium GitHub Pages Portfolio — Elmozamil Elamir
 
-Static GitHub Pages portfolio website.
+A polished static portfolio website for GitHub Pages.
 
-## How to use
+## Files
 
-1. Create a repository named `YOUR_GITHUB_USERNAME.github.io`
-2. Upload these files to the repository root:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `assets/`
-3. Go to repository Settings > Pages
-4. Select Deploy from branch > main > root
-5. Visit `https://YOUR_GITHUB_USERNAME.github.io/`
+- `index.html`
+- `style.css`
+- `script.js`
+- `assets/`
 
-Update the GitHub link in `index.html` if your username is different from `elmozamil`.
+## Deploy
+
+1. Create a repository named `YOUR_USERNAME.github.io`
+2. Upload all files to the repository root.
+3. Open repository Settings > Pages.
+4. Choose Deploy from branch > main > root.
+5. Visit `https://YOUR_USERNAME.github.io/`
+
+## Customize
+
+- Replace the GitHub URL in `index.html` if your GitHub username is not `elmozamil`.
+- Add your projects inside the `#projects` section when ready.
