@@ -1,13 +1,16 @@
-const menuBtn = document.querySelector('.menu-btn');
-const nav = document.querySelector('.nav');
+const toggle = document.querySelector('.menu-toggle');
+const links = document.querySelector('.nav-links');
 const year = document.querySelector('#year');
 
 if (year) year.textContent = new Date().getFullYear();
 
-if (menuBtn && nav) {
-  menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
-  nav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => nav.classList.remove('open'));
+if (toggle && links) {
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+
+  links.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => links.classList.remove('open'));
   });
 }
 
@@ -17,4 +20,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+document.querySelectorAll('section > .container, .card, .value-card, .journey-card').forEach(el => {
+  el.classList.add('reveal');
+  observer.observe(el);
+});
