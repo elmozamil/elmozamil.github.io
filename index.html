@@ -7,11 +7,21 @@
   <meta name="description" content="Executive portfolio for data, AI, information management leadership, governance, analytics, Agentic AI, and digital transformation consulting." />
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
+
+  <style>
+    .education-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .education-card { padding: 1.4rem; background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.04)); border: 1px solid rgba(255,255,255,.12); border-radius: 24px; box-shadow: 0 24px 70px rgba(0,0,0,.30); }
+    .education-card h3 { margin-bottom: .55rem; }
+    .education-card p { color: #a9bdd5; margin: 0; }
+    .credentials-group { margin-top: 2.4rem; }
+    .credentials-group h3 { text-align: center; margin-bottom: 1rem; }
+    @media (max-width: 700px) { .education-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a class="logo" href="#home">Elmozamil Elamir</a>
+      <a class="logo" href="#home">Elmozamil<span>.</span></a>
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
       <div class="nav-links">
         <a href="#services">Services</a>
@@ -20,6 +30,8 @@
         <a href="#journey">Journey</a>
         <a href="#thought">Thought Leadership</a>
         <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact" class="nav-cta">Contact</a>
       </div>
     </nav>
@@ -271,25 +283,76 @@
       </div>
     </section>
 
-    <section id="credentials" class="section">
+    <section id="education" class="section">
       <div class="container">
         <div class="section-intro center">
-          <p class="section-label">Credentials</p>
-          <h2>Education & Certifications</h2>
+          <p class="section-label">Education</p>
+          <h2>Academic Foundation</h2>
+          <p>Formal education combining data science, business leadership, software engineering, and information technology.</p>
         </div>
-        <div class="badge-grid">
-          <span>MSc Data Science</span>
-          <span>MBA</span>
-          <span>MSc Software Engineering</span>
-          <span>Microsoft Fabric Data Engineer</span>
-          <span>Power BI Data Analyst</span>
-          <span>Databricks Fundamentals</span>
-          <span>MCSD Web Applications</span>
-          <span>MCSE Data Platform</span>
-          <span>ITIL Foundation</span>
-          <span>AI Ethics</span>
-          <span>MLOps</span>
-          <span>Agentic AI</span>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <h3>MSc Data Science</h3>
+            <p>University of London</p>
+          </article>
+          <article class="education-card">
+            <h3>Master of Business Administration (MBA)</h3>
+            <p>Liverpool John Moores University</p>
+          </article>
+          <article class="education-card">
+            <h3>MSc Information Technology — Software Engineering</h3>
+            <p>University of Khartoum</p>
+          </article>
+          <article class="education-card">
+            <h3>BSc Information Technology</h3>
+            <p>University of Khartoum</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section muted">
+      <div class="container">
+        <div class="section-intro center">
+          <p class="section-label">Certifications</p>
+          <h2>Certifications & Leadership Development</h2>
+          <p>Professional credentials across data platforms, analytics, software engineering, AI, leadership, and digital transformation.</p>
+        </div>
+
+        <div class="credentials-group">
+          <h3>Technical Certifications</h3>
+          <div class="badge-grid">
+            <span>Microsoft Certified: Fabric Data Engineer Associate</span>
+            <span>Microsoft Certified: Power BI Data Analyst Associate</span>
+            <span>Databricks Fundamentals Accreditation</span>
+            <span>MCSD Web Applications</span>
+            <span>Programming in HTML5 with JavaScript and CSS3</span>
+            <span>MCSE Data Platform</span>
+            <span>MCSA SQL Server 2012</span>
+            <span>MCITP Database Developer</span>
+            <span>MCITP Database Administrator</span>
+            <span>ITIL Foundation V3</span>
+          </div>
+        </div>
+
+        <div class="credentials-group">
+          <h3>Leadership, AI & Transformation Learning</h3>
+          <div class="badge-grid">
+            <span>Management Accelerator — McKinsey Black Leadership Academy</span>
+            <span>Leadership Essentials Pathways — McKinsey & Company</span>
+            <span>Strategic Leadership and Management — University of Illinois</span>
+            <span>Develop Your Skills as a New or Emerging People Leader — UNHCR</span>
+            <span>AI Ethics Program — Turing College</span>
+            <span>MLOps Specialization — Duke University</span>
+            <span>Agentic AI Bootcamp — Data Science Dojo</span>
+            <span>Building AI Agents and Agentic Workflows — IBM</span>
+            <span>RAG and Agentic AI — IBM</span>
+            <span>Responsible Generative AI — University of Michigan</span>
+            <span>Digital Strategy Specialization — IBM / UVA Darden</span>
+            <span>Enterprise Data Integration, Governance and Architecture</span>
+            <span>PMP Preparatory Course</span>
+          </div>
         </div>
       </div>
     </section>
