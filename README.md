@@ -1,21 +1,11 @@
-# Elmozamil Elamir — Executive Data & AI Portfolio
+# Elmozamil Elamir — Portfolio with Fairness Project
 
-This version returns to the first dark modern design style, with added sections for:
-- Services
-- Leadership impact
-- Executive value
-- Information and data management leadership
-- Thought leadership
-- Projects placeholder
-- Credentials
-- Contact
+This version includes the first dark modern design style with Services, Leadership Impact, Information and Data Management Leadership, Thought Leadership, and the featured project: Fairness Pipeline Development Toolkit.
 
 ## Deploy on GitHub Pages
 
 1. Create a repository named `YOUR_USERNAME.github.io`
-2. Upload `index.html`, `style.css`, `script.js`, and this `README.md`
+2. Upload all files from this ZIP to the repository root
 3. Go to Repository Settings > Pages
 4. Select Deploy from branch > main > root
 5. Open `https://YOUR_USERNAME.github.io/`
-
-Update the GitHub URL in `index.html` if your username is different from `elmozamil`.
