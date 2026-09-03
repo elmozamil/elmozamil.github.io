@@ -1,11 +1,24 @@
-# Elmozamil Elamir — Portfolio with Fairness Project
+# Elmozamil Elamir — Executive Portfolio
 
-This version includes the first dark modern design style with Services, Leadership Impact, Information and Data Management Leadership, Thought Leadership, and the featured project: Fairness Pipeline Development Toolkit.
+Source for [elmozamil.github.io](https://elmozamil.github.io/), the executive portfolio of Elmozamil Elamir.
 
-## Deploy on GitHub Pages
+## Positioning
 
-1. Create a repository named `YOUR_USERNAME.github.io`
-2. Upload all files from this ZIP to the repository root
-3. Go to Repository Settings > Pages
-4. Select Deploy from branch > main > root
-5. Open `https://YOUR_USERNAME.github.io/`
+**Data & AI Transformation Leader**
+
+The site presents one connected leadership narrative:
+
+**Data Strategy → AI Strategy → Governance → Transformation → Leadership**
+
+It emphasizes enterprise value, trusted data, responsible AI adoption, decision intelligence, transformation execution and capability building. Technical tools appear only where they support evidence of delivery.
+
+## Public-brand boundary
+
+This portfolio deliberately excludes private venture and product material that is reserved for the CV. Keep future public additions consistent with that boundary.
+
+## Structure
+
+- `index.html` — production site
+- `style.css` and `script.js` — retained legacy assets; the current page uses inline styling and scripts
+
+The site is published from the `main` branch through GitHub Pages.
